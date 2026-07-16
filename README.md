@@ -1,71 +1,79 @@
-# Inventory-Management-System
-A console-based Inventory Management System developed using C++, STL, Binary Search, Sorting, and File Handling.
-# Inventory Management System
+# 📦 Inventory Management System
 
-## Overview
-
-A console-based Inventory Management System developed using C++.
-
-This project demonstrates the use of:
-
-- STL Map
-- STL Vector
-- Binary Search
-- Sorting Algorithms
-- File Handling
-- Modular Programming
+A **console-based Inventory Management System** developed in **C++** using the Standard Template Library (STL). The project helps manage product inventory efficiently by performing operations such as adding, updating, searching, sorting, and deleting products. It also supports file handling to store inventory data permanently.
 
 ---
 
-## Features
+## ✨ Features
 
-- Add Product
-- Display Products
-- Search by Product ID
-- Search by Product Name
-- Update Stock
-- Sell Product
-- Delete Product
-- Sort by Name
-- Sort by Price
-- Sort by Quantity
-- Low Stock Report
-- Total Inventory Value
-- Save & Load Inventory
+- ➕ Add New Product
+- 📋 Display All Products
+- 🔍 Search Product by ID (Binary Search)
+- 🔎 Search Product by Name
+- ✏️ Update Product Stock
+- 🛒 Sell Product
+- ❌ Delete Product
+- 📊 Sort Products by:
+  - Name
+  - Price
+  - Quantity
+- ⚠️ Low Stock Report
+- 💰 Calculate Total Inventory Value
+- 💾 Save & Load Inventory using File Handling
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - C++
-- STL
+- STL (`map`, `vector`)
+- Binary Search
+- Sorting Algorithms
+- File Handling (`fstream`)
 - Visual Studio Code
-- File Handling
 
 ---
 
-## Folder Structure
+## 📁 Project Structure
 
 ```
-Inventory-Management-System
+Inventory-Management-System/
 │── main.cpp
-│── Inventory.cpp
-│── Inventory.h
+│── inventory.cpp
+│── inventory.h
 │── inventory.txt
-│── README.md
+└── README.md
 ```
 
 ---
 
-## How to Run
+## ▶️ How to Run
 
-Compile:
+### Windows
+
+Compile the project:
 
 ```bash
-g++ main.cpp Inventory.cpp -o Inventory
+g++ main.cpp inventory.cpp -o Inventory
 ```
 
-Run:
+Run the executable:
+
+```bash
+.\Inventory.exe
+```
+
+---
+
+### Linux
+
+Compile the project:
+
+```bash
+g++ main.cpp inventory.cpp -o Inventory
+```
+
+Run the executable:
 
 ```bash
 ./Inventory
@@ -73,6 +81,28 @@ Run:
 
 ---
 
-## Author
+## 📌 Requirements
 
-Shaheen Azad
+- C++ Compiler (g++)
+- Visual Studio Code or any C++ IDE
+
+---
+
+## 🚀 Future Enhancements
+
+- Graphical User Interface (GUI)
+- Database Integration (MySQL)
+- User Authentication
+- Barcode Scanner Support
+- Billing and Invoice Generation
+- Supplier Management
+- Sales Analytics
+
+---
+
+## 👨‍💻 Author
+
+**Shaheen Azad**
+
+B.Tech Computer Science & Engineering  
+Lovely Professional University
