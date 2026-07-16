@@ -489,6 +489,12 @@ void loadFromFile()
 
     while(getline(file, line))
     {
+        // Skip empty lines
+        if(line.empty())
+        {
+            continue;
+        }
+
         stringstream ss(line);
 
         string id, name, price, quantity;
@@ -497,6 +503,12 @@ void loadFromFile()
         getline(ss, name, '|');
         getline(ss, price, '|');
         getline(ss, quantity, '|');
+
+        // Skip invalid records
+        if(id.empty() || name.empty() || price.empty() || quantity.empty())
+        {
+            continue;
+        }
 
         p.id = stoi(id);
         p.name = name;
