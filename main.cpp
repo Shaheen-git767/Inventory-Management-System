@@ -1,32 +1,5 @@
-// #include<iostream>
-// #include<map>
-// #include<vector>
-// #include<algorithm>
-// #include<fstream>
-// #include<iomanip>
-// #include <sstream>
-// using namespace std;
+
 #include "inventory.h"
-
-
-// struct Product
-// {
-//     int id;
-//     string name;
-//     double price;
-//     int quantity;
-// };
-
-// map<int, Product> inventory;
-
-// void pressEnter()
-// {
-//     cout << "\n---------------------------------------";
-//     cout << "\nPress Enter to return to Main Menu...";
-//     cin.ignore();
-//     cin.get();
-// }
-
 int main()
 {
 
